@@ -5,6 +5,7 @@ import LearnRoutes from "./components/LearnRoutes";
 function App() {
   return (
     <div className="App">
+      <h1>Updated</h1>
       <LearnRoutes />
     </div>
   );
