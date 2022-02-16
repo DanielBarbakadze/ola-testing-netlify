@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import Contact from "./Contact";
 import Page from "./Page";
 
-import { useHistory, useLocation } from "react-router-dom";
+// import { useHistory, useLocation } from "react-router-dom";
 
 export default function LearnRouters() {
   return (
